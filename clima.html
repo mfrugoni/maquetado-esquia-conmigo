@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Esquia conmigo | Clima</title>
+</head>
+<body>
+    <header>
+        <nav class="top-nav">
+            <div>
+                ECMG
+            </div>
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container' for="menu-toggle">
+                <div class='menu-button'></div>
+            </label>
+            <ul class="menu">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="">Sobre mi</a></li>
+                <li><a href="">Clases</a></li>
+                <li><a href="">Fotos</a></li>
+                <li><a href="">Contacto</a></li>
+                <li><a href="./clima.html">Clima</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article id="clima">
+            <p>Pronóstico del clima en Chapelco:</p>
+            <p>Intermedia 1600 msnm.</p>
+            <link rel="stylesheet" href="./styles/snow.css">
+            <div id="wf-weatherfeed">
+                <iframe allowtransparency="true" frameborder="0" height="272" marginheight="0"
+                    marginwidth="0" scrolling="auto" src="//es.snow-forecast.com/resorts/Chapelco/forecasts/feed/mid/m"
+                    style="border:none;" width=300px>
+                    <p>Su navegador no da soporte a iframes</p>
+                </iframe>
+                <div id="wf-link">
+                    <a href="https://www.snow-forecast.com/">
+                        <img alt="Snow Forecast" height="40" src="//es.snow-forecast.com/images/feed/snowlogo-150.png" width="150">
+                    </a>
+                    <p id="cmt">Panorama detallado del Pronóstico de Nieve para 
+                        <a href="https://es.snow-forecast.com/resorts/Chapelco/6day/mid">Chapelco</a> en:<br>
+                        <a href="https://es.snow-forecast.com/"><strong>snow-forecast.com</strong></a></p>
+                    <div style="clear: both;"></div>
+                </div>
+            </div>
+        </article>
+    </main>
+</body>
+</html>
