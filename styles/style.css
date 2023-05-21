@@ -18,6 +18,10 @@ html, body {
   height: 100%;
 }
 
+#logo {
+  width: 180px;
+}
+
 .top-nav {
   display: flex;
   flex-direction: row;
@@ -176,8 +180,9 @@ main {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+  gap: 1rem;
 }
 
 #clima>p {
@@ -196,6 +201,10 @@ main {
 
   .hello {
     justify-content: space-evenly;
+  }
+
+  #logo {
+    width: 300px;
   }
 
 }
